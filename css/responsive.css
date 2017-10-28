@@ -1,0 +1,36 @@
+@media screen and (max-width: 752px) {
+.remove-nav{
+    display: none; /*removing the navigation if the size is less than 752px */
+    }
+}
+
+@media screen and (min-width: 753px) {
+.display-nav{
+    display: none; /*removing the hamburger if the size is greater than 752px */
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+.header__textsize{
+    font-size: 26px;
+    }
+}
+
+/*when the screen is too small, the udacity logo and the name should come in the same line */
+@media screen and (max-width: 600px) {
+.remove-nav{
+    display: none; /*removing the navigation if the size is less than 752px */
+    }
+.header__textsize{
+    font-size: 20px;
+    }
+.other__headings{
+    font-size: 16px;
+    }
+.margin_text{
+    margin-top: 5px;
+    }
+}
+
+

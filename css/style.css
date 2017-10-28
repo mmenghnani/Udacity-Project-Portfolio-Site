@@ -1,0 +1,65 @@
+.logo{
+  width:60px;
+  padding-top:25px;
+}
+
+.body{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main__article{
+    margin-top: 0px; /*setting 0 margin to align with the main image */
+}
+
+.job__title{
+    margin-top: 0px;
+    font-style: italic;
+}
+
+.subject__name{
+    margin-bottom: 0px;
+}
+
+.secondary__heading{
+    padding-left: 15px;
+}
+
+.navbar, .navbar-inverse {
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0;
+    min-height: 0px;
+    background-color : #FFF;
+}
+
+.nav li {
+    display: inline;
+    color: red;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: black;
+    font-family: Lato;
+    font-size: 1.7em;
+    font-weight: 300;
+    padding: 30px 25px 33px 25px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+    background-color: #D3D3D3;
+    transition: 0.7s all linear;
+    height: 100%;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: white;
+}
+
+.navbar-toggle{
+    background-color: #000;
+}
+
+.toprow-margin{
+    margin-bottom: 15px;
+}
